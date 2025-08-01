@@ -66,7 +66,15 @@ O |
 =========
 """]
 
-list = ["cricket","football","basketball","games","vallyball","bidmintan","hockey"]
+list = [
+    "python", "keyboard", "giraffe", "umbrella", "pyramid",
+    "astronaut", "elephant", "mountain", "bicycle", "dolphin",
+    "volcano", "library", "diamond", "internet", "football",
+    "whistle", "penguin", "sandwich", "balloon", "cactus",
+    "rainbow", "monster", "treasure", "jungle", "glacier",
+    "pencil", "calendar", "lighthouse", "backpack", "robot"
+] 
+
 lives = 6
 
 computer_choice = r.choice(list)
